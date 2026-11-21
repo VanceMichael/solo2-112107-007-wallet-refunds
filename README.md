@@ -11,6 +11,7 @@
 GET `/v1/{release}/{resource}` 读取资源。阶段名为 `opening`、`interim`、`confirmed`，分别是开始时、中间观察和后续发布。阶段名只用于选择模拟接口，使用资料中标注的编号与有效时间判断其业务含义。返回的 `X-Release` 指观察阶段。索引声明的页暂未发布时返回 404，服务暂不可用时返回 503。各发布方的业务编号及生效信息见资源正文。
 
 货款、退款申请和退税材料均用原小票币种最小单位。结算记录的 charged 和 settled 各有自己的币种和符号，confirmed 退款的 CNY 结算额在相符的分账凭据内核算，pending 不扣，rejected 不扣，reversed 撤销此前引用的确认。小票与行需带 store，原钱包引用需带 network 和 merchant。税端状态 locked、accepted、redeemed 分别为已锁、已确认、已兑付。已确认只允许对该材料原 eligible_lines 做净额调整。portal 支持 adjust、inspect。
+reversed 记录带 supersedes，指先前撤销金额对应的 confirmed 事件号。税台调整引用原材料键和本次支付依据。重复 E5 是同一发布者重发。
 
 这些接口固定提供以下资源。分页资源名以各业务索引为准。
 
