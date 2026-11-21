@@ -1,0 +1,28 @@
+[
+  {
+    "event": "E5",
+    "network": "A",
+    "merchant": "P1",
+    "original": "X1",
+    "child": "S11",
+    "refund": "RF2",
+    "state": "confirmed",
+    "charged_minor": -2800,
+    "charged_ccy": "USD",
+    "settled_minor": -20000,
+    "settled_ccy": "CNY"
+  },
+  {
+    "event": "E5",
+    "network": "A",
+    "merchant": "P1",
+    "original": "X1",
+    "child": "S11",
+    "refund": "RF2",
+    "state": "confirmed",
+    "charged_minor": -2800,
+    "charged_ccy": "USD",
+    "settled_minor": -20000,
+    "settled_ccy": "CNY"
+  }
+]

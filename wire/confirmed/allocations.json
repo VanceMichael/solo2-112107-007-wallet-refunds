@@ -1,0 +1,57 @@
+[
+  {
+    "store": "M1",
+    "receipt": "R1",
+    "line": "L1",
+    "child": "S11",
+    "network": "A",
+    "merchant": "P1",
+    "original": "X1",
+    "amount_minor": 50000,
+    "currency": "CNY"
+  },
+  {
+    "store": "M1",
+    "receipt": "R1",
+    "line": "L1",
+    "child": "S12",
+    "network": "B",
+    "merchant": "P1",
+    "original": "X2",
+    "amount_minor": 30000,
+    "currency": "CNY"
+  },
+  {
+    "store": "M1",
+    "receipt": "R1",
+    "line": "L2",
+    "child": "S11",
+    "network": "A",
+    "merchant": "P1",
+    "original": "X1",
+    "amount_minor": 40000,
+    "currency": "CNY"
+  },
+  {
+    "store": "M1",
+    "receipt": "R2",
+    "line": "L1",
+    "child": "S20",
+    "network": "B",
+    "merchant": "P1",
+    "original": "X20",
+    "amount_minor": 30000,
+    "currency": "CNY"
+  },
+  {
+    "store": "M2",
+    "receipt": "R1",
+    "line": "L1",
+    "child": "S22",
+    "network": "A",
+    "merchant": "P2",
+    "original": "X1",
+    "amount_minor": 30000,
+    "currency": "CNY"
+  }
+]

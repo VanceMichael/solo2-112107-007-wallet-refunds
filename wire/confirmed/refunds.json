@@ -1,0 +1,29 @@
+[
+  {
+    "id": "RF1",
+    "store": "M1",
+    "receipt": "R1",
+    "line": "L1",
+    "child": "S12",
+    "minor": 10000,
+    "currency": "CNY"
+  },
+  {
+    "id": "RF2",
+    "store": "M1",
+    "receipt": "R1",
+    "line": "L1",
+    "child": "S11",
+    "minor": 20000,
+    "currency": "CNY"
+  },
+  {
+    "id": "RF3",
+    "store": "M1",
+    "receipt": "R2",
+    "line": "L1",
+    "child": "S20",
+    "minor": 5000,
+    "currency": "CNY"
+  }
+]

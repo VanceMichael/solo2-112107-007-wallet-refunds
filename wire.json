@@ -1,0 +1,118 @@
+{
+  "releases": {
+    "opening": {
+      "sales": {
+        "name": "opening/sales.json",
+        "type": "application/json"
+      },
+      "allocations": {
+        "name": "opening/allocations.json",
+        "type": "application/json"
+      },
+      "refunds": {
+        "name": "opening/refunds.json",
+        "type": "application/json"
+      },
+      "settlement-index": {
+        "name": "opening/settlement-index.json",
+        "type": "application/json"
+      },
+      "wallet-a": {
+        "name": "opening/wallet-a.json",
+        "type": "application/json"
+      },
+      "wallet-b": {
+        "name": "opening/wallet-b.json",
+        "type": "application/json"
+      },
+      "tax": {
+        "name": "opening/tax.json",
+        "type": "application/json"
+      }
+    },
+    "interim": {
+      "sales": {
+        "name": "interim/sales.json",
+        "type": "application/json"
+      },
+      "allocations": {
+        "name": "interim/allocations.json",
+        "type": "application/json"
+      },
+      "refunds": {
+        "name": "interim/refunds.json",
+        "type": "application/json"
+      },
+      "settlement-index": {
+        "name": "interim/settlement-index.json",
+        "type": "application/json"
+      },
+      "wallet-a": {
+        "name": "interim/wallet-a.json",
+        "type": "application/json"
+      },
+      "wallet-b": {
+        "name": "interim/wallet-b.json",
+        "type": "application/json"
+      },
+      "tax": {
+        "name": "interim/tax.json",
+        "type": "application/json"
+      }
+    },
+    "confirmed": {
+      "sales": {
+        "name": "confirmed/sales.json",
+        "type": "application/json"
+      },
+      "allocations": {
+        "name": "confirmed/allocations.json",
+        "type": "application/json"
+      },
+      "refunds": {
+        "name": "confirmed/refunds.json",
+        "type": "application/json"
+      },
+      "settlement-index": {
+        "name": "confirmed/settlement-index.json",
+        "type": "application/json"
+      },
+      "wallet-a": {
+        "name": "confirmed/wallet-a.json",
+        "type": "application/json"
+      },
+      "wallet-b": {
+        "name": "confirmed/wallet-b.json",
+        "type": "application/json"
+      },
+      "tax": {
+        "name": "confirmed/tax.json",
+        "type": "application/json"
+      },
+      "wallet-c": {
+        "name": "confirmed/wallet-c.json",
+        "type": "application/json"
+      }
+    }
+  },
+  "actions": {
+    "adjust": {
+      "ref": "TX-A1",
+      "result": "pending"
+    },
+    "inspect": {
+      "ref": "TX-A1",
+      "result": "accepted"
+    }
+  },
+  "known": {
+    "opening": {},
+    "interim": {},
+    "confirmed": {}
+  },
+  "statusField": "result",
+  "inspectStates": {
+    "adjust": "accepted"
+  },
+  "lateAction": null
+}

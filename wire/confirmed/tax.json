@@ -1,0 +1,24 @@
+[
+  {
+    "ref": "TX1",
+    "store": "M1",
+    "receipt": "R1",
+    "eligible_lines": [
+      "L1"
+    ],
+    "state": "locked",
+    "declared_minor": 70000,
+    "currency": "CNY"
+  },
+  {
+    "ref": "TX2",
+    "store": "M1",
+    "receipt": "R2",
+    "eligible_lines": [
+      "L1"
+    ],
+    "state": "redeemed",
+    "declared_minor": 30000,
+    "currency": "CNY"
+  }
+]

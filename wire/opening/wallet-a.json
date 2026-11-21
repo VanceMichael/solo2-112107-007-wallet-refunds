@@ -1,0 +1,15 @@
+[
+  {
+    "event": "E3",
+    "network": "A",
+    "merchant": "P1",
+    "original": "X1",
+    "child": "S11",
+    "refund": "RF2",
+    "state": "pending",
+    "charged_minor": -2800,
+    "charged_ccy": "USD",
+    "settled_minor": -20000,
+    "settled_ccy": "CNY"
+  }
+]
