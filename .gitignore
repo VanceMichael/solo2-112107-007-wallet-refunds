@@ -10,3 +10,6 @@ coverage/
 __pycache__/
 *.py[cod]
 .DS_Store
+
+# 门店对账运行时数据（事件日志、快照、原始来件留档）
+reconcile-data/

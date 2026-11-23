@@ -8,6 +8,7 @@
   },
   "scripts": {
     "source": "node source.mjs",
-    "test": "node --test source.test.mjs"
+    "reconcile": "node reconcile/cli.mjs",
+    "test": "node --test source.test.mjs reconcile/test/domain.test.mjs reconcile/test/e2e.test.mjs"
   }
 }
